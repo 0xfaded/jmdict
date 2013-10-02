@@ -1,0 +1,15 @@
+JMdict is a Japanese dictionary compiled by Jim Breen with Copyright (C) 2010
+belonging to the Electronic Dictionary Research and Development Group at
+Monash University. More information can be found here.
+
+http://www.csse.monash.edu.au/~jwb/edict_doc.html
+
+This package contains a basic means for parsing and working with
+the JMdict file, specifically version 1.0.7 but probably other versions.
+
+The library is unpolished, and there will likely be bugs. I make this
+available in the hope that someone will find it useful.
+
+in := os.Open('path')
+dict := jmjmdict.Read(in)
+
